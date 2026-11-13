@@ -27,7 +27,9 @@ public class Assignment01Q04 {
         for (int i = 0; i < length; i++) {
             shiftedArray[(i + move) % length] = array[i];
         }
-        array = shiftedArray;
+        for (int i = 0; i < length; i++) {
+            array[i] = shiftedArray[i];
+        }
         return array;
     }
 
