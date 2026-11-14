@@ -1,8 +1,24 @@
 public class Assignment01Q05 {
     public static int findShortestPath(int[][] m, int i, int j) {
-        // TODO: implement
+        int size = m[0].length;
+        int[][] Matrix = [size][size];
+        for (int index = 0; index<size; index++){
+            for (int n = 0; n < size; n++){
+
+            }
+
+
+        }
+
+        
         return -1;
     }
+
+    
+
+
+
+
 
     public static void main(String[] args) {
         System.out.println(
